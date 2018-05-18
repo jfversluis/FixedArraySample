@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FixedArraySample" x:Class="FixedArraySample.MainPage">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Monday" />
+            <Switch IsToggled="{Binding Days[0]}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Tuesday" />
+            <Switch IsToggled="{Binding Days[1]}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Wednesday" />
+            <Switch IsToggled="{Binding Days[2]}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Thursday" />
+            <Switch IsToggled="{Binding Days[3]}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Friday" />
+            <Switch IsToggled="{Binding Days[4]}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Saturday" />
+            <Switch IsToggled="{Binding Days[5]}" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Sunday" />
+            <Switch IsToggled="{Binding Days[6]}" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
